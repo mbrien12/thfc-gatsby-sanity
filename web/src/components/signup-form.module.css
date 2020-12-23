@@ -4,4 +4,60 @@
     align-items: center;
     justify-content: center;
   }
-  
+
+
+  .inputRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  form {
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin: 10px;
+    height: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 50%;
+  }
+
+  /* input[type="submit"] {
+    width: 50%;
+  } */
+
+  @media only screen and (max-width: 600px) {
+    .inputRow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    form {
+      width: 70%;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    .formHeadings {
+      width: 75%;
+      text-align: center;
+    }
+
+  }
