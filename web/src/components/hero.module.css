@@ -1,9 +1,23 @@
+@import '../styles/custom-properties.css';
+
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 80px;
 }
 
 .logo {
   width: 400px;
+}
+
+a {
+  margin: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-accent)
 }

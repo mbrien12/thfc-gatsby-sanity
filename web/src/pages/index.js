@@ -97,7 +97,7 @@ const IndexPage = props => {
         keywords={site.keywords}
       />
       <Container>
-        <Hero/>
+        <Hero />
         {postNodes && (
           <BlogPostPreviewList
             title='Latest blog posts'

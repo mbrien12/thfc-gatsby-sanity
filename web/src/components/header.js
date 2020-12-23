@@ -25,7 +25,7 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
             <Link to='/matchReports/'>Match Reports</Link>
           </li>
           <li>
-            <Link to='/archive/'>Archive</Link>
+            <Link to='/archive/'>Archive (to delete)</Link>
           </li>
         </ul>
       </nav>
